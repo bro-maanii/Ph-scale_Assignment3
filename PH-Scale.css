@@ -1,0 +1,22 @@
+div{
+    background-color: black;
+    color: red;
+    padding: 0px 5% 3px 5%;
+    border: 2px solid black;
+    border-radius: 48px;
+    text-align: center;
+    margin: 2% 29%
+}
+p{
+    color:white;
+    font-size: xx-large;
+    margin: 0%;
+}
+@media (max-width: 529px ) {
+    div{
+        font-size: xx-small;
+    }
+    p{
+        font-size: large;
+    }
+}
